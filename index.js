@@ -16,21 +16,21 @@ const questions = [
   {
     type: "input",
     message: "How do we install ?",
-    name: "Installation",
+    name: "installation",
   },
   {
     type: "input",
-    message: "How do we use the prjoect ?",
-    name: "Usage",
+    message: "How do we use the project?",
+    name: "usage",
   },
   {
     type: "list",
     message: "What license are we using",
-    name: "License",
+    name: "license",
     choices: [
       "Apache 2.0 License",
       "BSD 3-Clause License",
-      "Eclipse Public License 1.0",
+      "The MIT License",
       "GNU GPL v3",
     ],
   },
@@ -48,12 +48,12 @@ const questions = [
     type: "checkbox",
     message: "Testing libraries used on this project? Select all that apply.",
     choices: ["Jest", "Jasmine", "Mocha", "Chai", "None"],
-    name: "Testing",
+    name: "testing",
   },
   {
     type: "input",
     message: "Who do we contact for questions?",
-    name: "Questions",
+    name: "questions",
   },
   {
     type: "input",
